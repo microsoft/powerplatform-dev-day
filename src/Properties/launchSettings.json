@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "PPDD": {
-      "commandName": "Project",
-      "commandLineArgs": "--port 7170",
-      "launchBrowser": false
-    }
-  }
-}
