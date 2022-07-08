@@ -21,7 +21,34 @@ We encourage you to follow along the hands-on labs during lab sessions.
 
 3. Click ***Review + Create***, then click ***Create***
 
-4. While this deployment is in progress, we will move on to the next section.
+4. When the deployment is complete. Navigate to the Resource Group.
+
+    ![resource group](img/rg-ppdd.png)
+
+5. Click the Function App.
+
+    ![resource group function](img/rg-ppdd-fn.png)
+
+6. On the left hand side, open the deployment center
+
+    ![deployment center](img/deployment-center.png)
+
+7. Select ***External Git***
+
+    ![external git](img/external-git.png)
+
+8. Enter the following information, then click ***Save***:
+
+    * Repository: `https://github.com/ChrisMcKee1/ppdd-azure-function`
+    * Branch: `main`
+
+9. Open the logs for the deployment, Click ***Refresh***, Then click on the Commit ID.
+
+    ![logs](img/logs.png)
+
+10. The deployment will take some time to complete. But as long as it looks like this you are good to go to the next section.
+
+    ![deployment](img/deployment.png)
 
 # Create Custom Connector
 
