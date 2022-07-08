@@ -1,9 +1,37 @@
 
-# Deploy Azure Resources
+# Create Custom Endpoint using Azure Function
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Fpowerplatform-dev-day%2Fmain%2Ftemplates%2Fmain.json)
+## Prerequisites
 
-**Images have been added. Need to list the instructions out!**
+We encourage you to follow along the hands-on labs during lab sessions.
+
+* If you don't have an Azure Subscription to use for these labs, please create a free subscription at https://azure.microsoft.com/free/.
+
+## Lab
+
+1.  Provision Azure Resources
+
+    In this section you will Provision Azure resources that will host the API. 
+
+    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Fpowerplatform-dev-day%2Fmain%2Ftemplates%2Fmain.json)
+
+2. If you would like to update the location on where the resources are deployed the update the Location box with what ever region is the closes to you. For location options click [here](https://azure.microsoft.com/en-in/global-infrastructure/geographies/#geographies).
+
+    ![region](img/template.png)
+
+3. Click ***Review + Create***, then click ***Create***
+
+4. While this deployment is in progress, we will move on to the next section.
+
+# Create Custom Connector
+
+## Prerequisites
+
+We encourage you to follow along the hands-on labs during lab sessions.
+
+* Request a power platform developer license [here](https://go.microsoft.com/fwlink/?LinkId=2180357&clcid=0x409).
+
+## Lab
 
 1. Click ***Sign In***
 
@@ -61,3 +89,53 @@
 
     ![actions](img/name-endpoints.png)
 
+    *Informational - All of this information can manually be set up. Since we are using the OpenAPI standard our swagger.json file can do most of the work for us.*
+
+    - If you click on Random-API you will see under the request section that all of the url query parameter are list and you can edit them. This is the information that gets appended to the end of the url to filter the GET request. You can edit each parameter and the expected data types. 
+
+        ![request parameters](img/query-parameters.png) 
+
+    - Under the Response section you can add or edit the response options. 
+
+        ![response](img/response200.png)
+
+    - Inside the response you can see the dynamic response properties that are expected with the type 200 response code. You can have different properties for different response. These body properties are based on a shared reference to a data model.
+
+        ![response body](img/shared-model-references.png) 
+
+    - The location of the data model references can be found here. 
+
+        ![data model](img/shared-model-references-location.png)
+
+13. Open the ***Swagger Editor***
+
+    ![swagger editor](img/swagger-editor.png)
+
+14. On line 2, edit the title property. This is the name of the initialized object used inside of Power Apps. Change the title to `PublicAPI` or `API`. 
+
+    *What does this mean! Well lets compare this in code.*
+
+    ```CSharp
+    PublicAPI api = new PublicAPI();
+    Category responseBody = api.Category();
+    ```
+
+    The class name `PublicAPI` is equal to the name of the connector. The name of the variable `api` is the same as the title properties in the swagger file. Also the actions can be thought of as methods. 
+
+15. Click ***Create connector***
+
+    ![create connector](img/create-connector.png)
+
+16. To test your new connector create a new connection
+
+    ![new connection](img/create-test-connection.png)
+
+17. Now test your new connector
+
+    ![test connector](img/test-endpoints.png)
+
+18. Now add it to Power Apps
+
+    ![power apps](img/add-cc-to-powerapp.png)
+
+@Team will need to show this in use in the same Power App used in the power apps demo. 
