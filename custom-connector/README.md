@@ -76,7 +76,13 @@ We encourage you to follow along the hands-on labs during lab sessions.
 
     ![import button](img/import-cc.png)
 
-5. Click ***Import***, then click ***Continue***
+5. Enter URL: 
+
+    ```
+    https://raw.githubusercontent.com/ChrisMcKee1/ppdd-azure-function/main/swagger.json
+    ``` 
+
+    Then Click ***Import***  and click ***Continue***
 
     ![import button](img/import-url.png)
 
