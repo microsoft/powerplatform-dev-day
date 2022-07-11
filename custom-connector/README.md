@@ -140,34 +140,19 @@ We encourage you to follow along the hands-on labs during lab sessions.
 
         ![data model](img/shared-model-references-location.png)
 
-13. Open the ***Swagger Editor***
-
-    ![swagger editor](img/swagger-editor.png)
-
-14. On line 2, edit the title property. This is the name of the initialized object used inside of Power Apps. Change the title to `PublicAPI` or `API`. 
-
-    *What does this mean! Well lets compare this in code.*
-
-    ```CSharp
-    PublicAPI api = new PublicAPI();
-    Category responseBody = api.Category();
-    ```
-
-    The class name `PublicAPI` is equal to the name of the connector. The name of the variable `api` is the same as the title properties in the swagger file. Also the actions can be thought of as methods. 
-
-15. Click ***Create connector***
+13. Click ***Create connector***
 
     ![create connector](img/create-connector.png)
 
-16. To test your new connector create a new connection
+14. To test your new connector create a new connection
 
     ![new connection](img/create-test-connection.png)
 
-17. Now test your new connector
+15. Now test your new connector
 
     ![test connector](img/test-endpoints.png)
 
-18. Now add it to Power Apps
+16. Now add it to Power Apps
 
     ![power apps](img/add-cc-to-powerapp.png)
 
