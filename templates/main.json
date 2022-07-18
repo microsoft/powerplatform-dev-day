@@ -4,15 +4,11 @@
   "metadata": {
     "_generator": {
       "name": "bicep",
-      "version": "0.7.4.23292",
-      "templateHash": "16107345213183885109"
+      "version": "0.8.9.13224",
+      "templateHash": "9521740062291919136"
     }
   },
   "parameters": {
-    "location": {
-      "type": "string",
-      "defaultValue": "centralus"
-    },
     "resourceGroupName": {
       "type": "string",
       "defaultValue": "rg-ppdd"
@@ -22,8 +18,7 @@
     {
       "type": "Microsoft.Resources/resourceGroups",
       "apiVersion": "2021-04-01",
-      "name": "[parameters('resourceGroupName')]",
-      "location": "[parameters('location')]"
+      "name": "[parameters('resourceGroupName')]"
     },
     {
       "type": "Microsoft.Resources/deployments",
@@ -41,8 +36,8 @@
           "metadata": {
             "_generator": {
               "name": "bicep",
-              "version": "0.7.4.23292",
-              "templateHash": "17620371547599195204"
+              "version": "0.8.9.13224",
+              "templateHash": "16606480832233825111"
             }
           },
           "variables": {
