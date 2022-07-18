@@ -6,8 +6,10 @@
 We encourage you to follow along the hands-on labs during lab sessions.
 
 * If you don't have an Azure Subscription to use for these labs, please create a free subscription at https://azure.microsoft.com/free/.
+* Request a power platform developer license [here](https://go.microsoft.com/fwlink/?LinkId=2180357&clcid=0x409).
+    * If that doesn't work, please try  [Microsoft 365 Developer Program](https://docs.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program#join-the-microsoft-365-developer-program).
 
-## Lab
+## Lab Part 1 - Azure Resource Deployment
 
 1.  Provision Azure Resources
 
@@ -50,15 +52,7 @@ We encourage you to follow along the hands-on labs during lab sessions.
 
     ![deployment](img/deployment.png)
 
-# Create Custom Connector
-
-## Prerequisites
-
-We encourage you to follow along the hands-on labs during lab sessions.
-
-* Request a power platform developer license [here](https://go.microsoft.com/fwlink/?LinkId=2180357&clcid=0x409).
-
-## Lab
+## Lab Part 2 - Create Custom Connector
 
 1. Click ***Sign In***
 
@@ -156,4 +150,14 @@ We encourage you to follow along the hands-on labs during lab sessions.
 
     ![power apps](img/add-cc-to-powerapp.png)
 
-@Team will need to show this in use in the same Power App used in the power apps demo. 
+## Lab Part 3 - Clean Up Azure Resources
+
+*It is important to clean up Azure resources when you are done with them. This prevent you from accumulating charges on your Azure account.*
+
+1. Navigate to the Resource Group.
+
+    ![resource group](img/rg-ppdd.png)
+
+2. CLick delete on the Resource Group.
+
+    ![delete resource group](img/rg-ppdd-delete.png)
