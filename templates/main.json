@@ -5,20 +5,25 @@
     "_generator": {
       "name": "bicep",
       "version": "0.8.9.13224",
-      "templateHash": "9521740062291919136"
+      "templateHash": "4955893310509780209"
     }
   },
   "parameters": {
     "resourceGroupName": {
       "type": "string",
       "defaultValue": "rg-ppdd"
+    },
+    "resourceGroupLocation": {
+      "type": "string",
+      "defaultValue": "centralus"
     }
   },
   "resources": [
     {
       "type": "Microsoft.Resources/resourceGroups",
       "apiVersion": "2021-04-01",
-      "name": "[parameters('resourceGroupName')]"
+      "name": "[parameters('resourceGroupName')]",
+      "location": "[parameters('resourceGroupLocation')]"
     },
     {
       "type": "Microsoft.Resources/deployments",
