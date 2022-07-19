@@ -44,6 +44,9 @@ In this section, you will add the Public API custom connector to the Power App.
 
 16. Select the ellipsis to the right of ***App*** in the Tree View
 17. Click ***Run OnStart***
+
+![run onstart](img/runonstart.png)
+
 18. Click on the ***gal_APIList*** gallery to select it
 19. Select ***Data source*** in the properties pane
 20. Select the ***apilist*** collection as the gallery datasource
