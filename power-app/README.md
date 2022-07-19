@@ -90,8 +90,13 @@ In this section, you will add and modify controls to make the Public API Power A
 
 ![gallery](img/gallerywithlink.png)
 
-26. Click on the Play button to play the app
-27. Test any API hyperlink by clicking on it.  A new browser window should open the hyperlink.
+26. Click on ***gal_APIList*** to select it
+27. Select the ***OnSelect*** property
+28. In the fx (function) enter ***Set(SelectedAPI, ThisItem)***
+29. Add a ***Display Form*** to the right of the gallery
+30. Set the ***Item*** property of the Display Form to ***SelectedAPI***
+31. Click on the Play button to play the app
+32. Test any API hyperlink by clicking on it.  A new browser window should open the hyperlink.
 
 
 
