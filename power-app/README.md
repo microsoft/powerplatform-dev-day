@@ -48,7 +48,9 @@ In this section, you will add the Public API custom connector to the Power App.
 26. Select the *OnSelect* property of *lbl_Link*
 27. In the fx (function) change Select(Parent) to Launch(ThisItem.Link)
 28. Change lbl_Link to a blue font color
-29. Add the Underline property to lbl_Link
+29. Add the Underline font property to lbl_Link
+30. Click on the Play button to play the app
+31. Test any API hyperlink by clicking on it.  A new browser window should open the hyperlink.
 
 
 
