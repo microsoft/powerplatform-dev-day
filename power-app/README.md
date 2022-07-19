@@ -88,9 +88,7 @@ In this section, you will add and modify controls to make the Public API Power A
 24. Change ***lbl_Link*** to a blue font color
 25. Add the Underline font property to lbl_Link
 
-<div style="width:60px ; height:60px">
 ![gallery](img/gallerywithlink.png)
-</div>
 
 26. Click on the Play button to play the app
 27. Test any API hyperlink by clicking on it.  A new browser window should open the hyperlink.
