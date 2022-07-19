@@ -49,6 +49,9 @@ In this section, you will add the Public API custom connector to the Power App.
 
 18. Click on the ***gal_APIList*** gallery to select it
 19. Select ***Data source*** in the properties pane
+
+![gallery](img/datasourcelayout.png)
+
 20. Select the ***apilist*** collection as the gallery datasource
 21. Change the Layout from ***Blank*** to ***Title, subtitle, and body***
 
