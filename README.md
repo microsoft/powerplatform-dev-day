@@ -13,7 +13,7 @@ We encourage you to follow along the hands-on labs during lab sessions.
 
 ## Labs
 
-1. [Power App](power-automate/README.md)
+1. [Power App](power-app/README.md)
 2. [Power Automate](power-automate/README.md)
 3. [Custom Connectors](custom-connector/README.md)
 4. [Dataverse](dataverse/README.md)
