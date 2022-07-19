@@ -39,12 +39,15 @@ In this section, you will add the Public API custom connector to the Power App.
 12. In the Tree View select ***App***
 13. Select the ***OnStart*** property
 14. In the function (fx) blank, enter ***ClearCollect(apilist,PublicAPI.List().entries)***
-15. Select the ellipsis to the right of ***App*** in the Tree View
-16. Click ***Run OnStart***
-17. Click on the ***gal_APIList*** gallery to select it
-18. Select ***Data source*** in the properties pane
-19. Select the ***apilist*** collection as the gallery datasource
-20. Change the Layout from ***Blank*** to ***Title, subtitle, and body***
+
+![rename screen](img/clearcollect.png)
+
+16. Select the ellipsis to the right of ***App*** in the Tree View
+17. Click ***Run OnStart***
+18. Click on the ***gal_APIList*** gallery to select it
+19. Select ***Data source*** in the properties pane
+20. Select the ***apilist*** collection as the gallery datasource
+21. Change the Layout from ***Blank*** to ***Title, subtitle, and body***
 
 ![gallery](img/gallery.png)
 
