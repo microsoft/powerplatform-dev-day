@@ -67,10 +67,13 @@ In this section, you will add the Public API custom connector to the Power App.
 24. In the Tree View, rename Title1 to ***lbl_APIName***
 25. In the Tree View, rename Subtitle1 to ***lbl_Description***
 26. In the Tree View, rename Body1 to ***lbl_Link***
-27. Select the ***OnSelect*** property of ***lbl_Link***
-28. In the fx (function) change ***Select(Parent)*** to ***Launch(ThisItem.Link)***
-29. Change ***lbl_Link*** to a blue font color
-30. Add the Underline font property to lbl_Link
+
+![label rename](img/labelrenames.png)
+
+28. Select the ***OnSelect*** property of ***lbl_Link***
+29. In the fx (function) change ***Select(Parent)*** to ***Launch(ThisItem.Link)***
+30. Change ***lbl_Link*** to a blue font color
+31. Add the Underline font property to lbl_Link
 
 ![gallery](img/gallerywithlink.png)
 
