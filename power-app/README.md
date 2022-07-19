@@ -42,7 +42,10 @@ In this section, you will add the Public API custom connector to the Power App.
 17. Select ***Data source*** in the properties pane
 18. Select the ***apilist*** collection as the gallery datasource
 19. Change the Layout from ***Blank*** to ***Title, subtitle, and body***
-20. Click ***Edit*** to the right of ***Fields*** in the property pane
+
+![gallery](img/gallery.png)
+
+21. Click ***Edit*** to the right of ***Fields*** in the property pane
 
 ![edit fields](img/EditFields.png)
 
@@ -56,8 +59,11 @@ In this section, you will add the Public API custom connector to the Power App.
 28. In the fx (function) change ***Select(Parent)*** to ***Launch(ThisItem.Link)***
 29. Change ***lbl_Link*** to a blue font color
 30. Add the Underline font property to lbl_Link
-31. Click on the Play button to play the app
-32. Test any API hyperlink by clicking on it.  A new browser window should open the hyperlink.
+
+![gallery](img/gallerywithlink.png)
+
+32. Click on the Play button to play the app
+33. Test any API hyperlink by clicking on it.  A new browser window should open the hyperlink.
 
 
 
