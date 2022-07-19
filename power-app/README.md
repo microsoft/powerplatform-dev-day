@@ -40,7 +40,7 @@ In this section, you will add the Public API custom connector to the Power App.
 13. Select the ***OnStart*** property
 14. In the function (fx) blank, enter ***ClearCollect(apilist,PublicAPI.List().entries)***
 
-![rename screen](img/clearcollect.png)
+![clearcollect](img/clearcollect.png)
 
 16. Select the ellipsis to the right of ***App*** in the Tree View
 17. Click ***Run OnStart***
