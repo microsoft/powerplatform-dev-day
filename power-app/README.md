@@ -2,6 +2,8 @@
 
 ## Prerequisites
 
+* You will need the Public API Custom Connector for this lab.
+
 ## Lab
 
 ## Create a new Power App
