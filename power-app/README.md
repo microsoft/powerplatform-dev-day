@@ -25,6 +25,7 @@ In this section, you will add the Public API custom connector to the Power App.
 3. In the Search blank, enter *Public* to search for the Public API connector you created.
 4. Select the Public API connector to connect it to the Power App.
 5. In the Tree View, rename Screen1 to *HomeScreen*
+[./img/RenameScreen.png]
 6. Click *Insert*
 7. Click *Gallery*
 8. Click *Blank vertical*
