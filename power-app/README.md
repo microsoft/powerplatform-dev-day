@@ -47,11 +47,11 @@ In this section, you will add the Public API custom connector to the Power App.
 ![edit fields](img/EditFields.png)
 
 
-22. Change Subtitle3 to ***Description***
-23. Change Body3 to ***Link***
+22. Change Subtitle1 to ***Description***
+23. Change Body1 to ***Link***
 24. In the Tree View, rename Title1 to ***lbl_APIName***
 25. In the Tree View, rename Subtitle1 to ***lbl_Description***
-26. In the Tree View, rename Body3 to ***lbl_Link***
+26. In the Tree View, rename Body1 to ***lbl_Link***
 27. Select the ***OnSelect*** property of ***lbl_Link***
 28. In the fx (function) change ***Select(Parent)*** to ***Launch(ThisItem.Link)***
 29. Change ***lbl_Link*** to a blue font color
