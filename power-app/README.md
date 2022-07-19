@@ -96,10 +96,8 @@ In this section, you will add and modify controls to make the Public API Power A
 
 ![gallery onselect](img/galonselect.png)
 
-30. Add a ***Display Form*** to the right of the gallery
-31. Set the ***Item*** property of the Display Form to ***SelectedAPI***
-32. Click on the Play button to play the app
-33. Test any API hyperlink by clicking on it.  A new browser window should open the hyperlink.
+33. Click on the Play button to play the app
+34. Test any API hyperlink by clicking on it.  A new browser window should open the hyperlink.
 
 
 
