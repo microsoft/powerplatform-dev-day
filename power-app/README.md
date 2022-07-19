@@ -38,6 +38,9 @@ In this section, you will add and modify controls to make the Public API Power A
 2. Click ***Insert***
 3. Click ***Gallery***
 4. Click ***Blank vertical***
+
+![blank vertical](img/blankvertical.png)
+
 5. Rename the Gallery1 control to ***gal_APIList***
 
 ![rename screen](img/renamegallery.png)
