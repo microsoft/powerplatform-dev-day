@@ -51,6 +51,7 @@ In this section, you will add and modify controls to make the Public API Power A
 5. Rename the Gallery1 control to ***gal_APIList***
 
 ![rename screen](img/renamegallery.png)
+
 ![rename after](img/renameafter.png)
 
 6. In the Tree View delete ***NextArrow1***
