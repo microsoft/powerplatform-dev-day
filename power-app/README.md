@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* You will need to have a locally saved copy of the PublicAPIresponse.xlsx for this lab.
+* You will need to have a locally saved copy of the PublicAPI.xlsx for this lab.
 
 ## Lab
 
