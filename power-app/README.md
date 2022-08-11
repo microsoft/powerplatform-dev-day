@@ -57,7 +57,7 @@ In this section, you will add and modify controls to make the Public API Power A
 6. In the Tree View delete ***NextArrow1***
 7. In the Tree View select ***App***
 8. Select the ***OnStart*** property
-9. In the function (fx) blank, enter ***ClearCollect(apilist,PublicAPIresponse.List().entries)***
+9. In the function (fx) blank, enter ***ClearCollect(apilist,PublicAPIresponse)***
 
 ![clearcollect](img/clearcollect.png)
 
@@ -83,6 +83,7 @@ In this section, you will add and modify controls to make the Public API Power A
 
 17. Change Subtitle1 to ***entries.Description***
 18. Change Body1 to ***entries.Link***
+19. Title1 should be set to ***entries.API*** by default
 
 ![change fields](img/fieldschange.png)
 
