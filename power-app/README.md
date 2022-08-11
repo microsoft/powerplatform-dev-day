@@ -34,6 +34,8 @@ In this section, you will add the Public API Excel datasource to the Power App
 4. Browse to the PublicAPI.xlsx included in the solution
 5. Select the table ***PublicAPIResponse*** when prompted and click ***Connect***
 
+![connect_table](img/selecttable.png)
+
 ## Design a Power App
 
 In this section, you will add and modify controls to make the Public API Power App
