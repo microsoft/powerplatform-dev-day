@@ -20,20 +20,20 @@ In this section you will create a Power App that will show lists of Public APIs.
 
 ## Import Public API Datasource
 
-In this section, you will add the Public API Excel datasource to the Power App.
+In this section, you will add the Public API Excel datasource to the Power App
     
 1. Click the database icon
 2. Click ***Add data***
-3. In the Search blank, enter ***Excel*** and select ***Import from Excel***.
+3. In the Search blank, enter ***Excel*** and select ***Import from Excel***
 
 ![import_excel](img/ImportExcel.png)
 
 4. Browse to the PublicAPI.xlsx included in the solution
-5. Select the table ***PublicAPIResponse*** when prompted and click ***Connect***.
+5. Select the table ***PublicAPIResponse*** when prompted and click ***Connect***
 
 ## Design a Power App
 
-In this section, you will add and modify controls to make the Public API Power App.
+In this section, you will add and modify controls to make the Public API Power App
 
 1. In the Tree View, rename Screen1 to ***HomeScreen***
 
