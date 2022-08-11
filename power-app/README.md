@@ -81,9 +81,12 @@ In this section, you will add and modify controls to make the Public API Power A
 
 17. Change Subtitle1 to ***entries.Description***
 18. Change Body1 to ***entries.Link***
-19. In the Tree View, rename Title1 to ***lbl_APIName***
-20. In the Tree View, rename Subtitle1 to ***lbl_Description***
-21. In the Tree View, rename Body1 to ***lbl_Link***
+
+![change fields](img/fieldschange.png)
+
+20. In the Tree View, rename Title1 to ***lbl_APIName***
+21. In the Tree View, rename Subtitle1 to ***lbl_Description***
+22. In the Tree View, rename Body1 to ***lbl_Link***
 
 ![rename labels](img/lblrenames.png)
 
