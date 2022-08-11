@@ -18,18 +18,19 @@ In this section you will create a Power App that will show lists of Public APIs.
 
 * ***Note*** It is important to save a new Power App at least one time in order to take advantage of the auto-save feature.  If you do not save the app at least once, you risk losing all your work.
 
-## Add Public API Connector
+## Import Public API Datasource
 
-In this section, you will add the Public API custom connector to the Power App.
+In this section, you will add the Public API Excel datasource to the Power App.
     
 1. Click the database icon
 2. Click ***Add data***
-3. In the Search blank, enter ***Public*** to search for the Public API connector you created.
-4. Select the Public API connector to connect it to the Power App.
+3. In the Search blank, enter ***Excel*** and select ***Excel Spreadsheet***.
+4. Browse to the PublicAPI.xlsx included in the solution.
+5. Select the table ***PublicAPIResponse*** when prompted and click ***Connect***.
 
-## Design Power App
+## Design a Power App
 
-In this section, you will add and modify controls to make the Public API Power App
+In this section, you will add and modify controls to make the Public API Power App.
 
 1. In the Tree View, rename Screen1 to ***HomeScreen***
 
@@ -48,7 +49,7 @@ In this section, you will add and modify controls to make the Public API Power A
 6. In the Tree View delete ***NextArrow1***
 7. In the Tree View select ***App***
 8. Select the ***OnStart*** property
-9. In the function (fx) blank, enter ***ClearCollect(apilist,PublicAPI.List().entries)***
+9. In the function (fx) blank, enter ***ClearCollect(apilist,PublicAPIresponse.List().entries)***
 
 ![clearcollect](img/clearcollect.png)
 
