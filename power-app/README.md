@@ -24,8 +24,11 @@ In this section, you will add the Public API Excel datasource to the Power App.
     
 1. Click the database icon
 2. Click ***Add data***
-3. In the Search blank, enter ***Excel*** and select ***Excel Spreadsheet***.
-4. Browse to the PublicAPI.xlsx included in the solution.
+3. In the Search blank, enter ***Excel*** and select ***Import from Excel***.
+
+![import_excel](img/ImportExcel.png)
+
+4.Browse to the PublicAPI.xlsx included in the solution.
 5. Select the table ***PublicAPIResponse*** when prompted and click ***Connect***.
 
 ## Design a Power App
