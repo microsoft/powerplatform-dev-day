@@ -72,7 +72,7 @@ In this section, you will add and modify controls to make the Public API Power A
 14. Select the ***apilist*** collection as the gallery datasource
 15. Change the Layout from ***Blank*** to ***Title, subtitle, and body***
 
-![gallery](img/gallery.png)
+![gallery](img/layout.png)
 
 16. Click ***Edit*** to the right of ***Fields*** in the property pane
 
