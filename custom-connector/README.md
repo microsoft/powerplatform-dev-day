@@ -146,10 +146,11 @@ We encourage you to follow along the hands-on labs during lab sessions.
    ![test connector](img/test-endpoints.png)
 
 16. Ok lets add it to the power apps solution.
-   1. In the bottom left of the screen click on ***Solution***
-   2. Then open your solution you made in Lab 1
-   3. Click ***Add exsiting***, then ***Automation***, click ***Custom Connector***
-   4. Select the tab ***Outside Dataverse***, Select your custom connector and Click ***Add***
+
+      1. In the bottom left of the screen click on ***Solution***
+      2. Then open your solution you made in Lab 1
+      3. Click ***Add exsiting***, then ***Automation***, click ***Custom Connector***
+      4. Select the tab ***Outside Dataverse***, Select your custom connector and Click ***Add***
 
 17. Now add it to Power Apps
 
