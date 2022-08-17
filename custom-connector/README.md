@@ -1,4 +1,3 @@
-
 # Create Custom Endpoint using Azure Function
 
 ## Prerequisites
