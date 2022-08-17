@@ -3,6 +3,8 @@
 ## Prerequisites
 
 * You will need to have a locally saved copy of the PublicAPI.xlsx for this lab.
+* Request a power platform developer license [here](https://go.microsoft.com/fwlink/?LinkId=2180357&clcid=0x409).
+    * If that doesn't work, please try  [Microsoft 365 Developer Program](https://docs.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program#join-the-microsoft-365-developer-program).
 
 ## Lab
 
@@ -11,10 +13,13 @@
 In this section you will create a Power App that will show lists of Public APIs.
     
 1. Browse to https://make.powerapps.com
-2. Click ***Blank App***
-3. Under ***Blank Canvas App*** click ***Create***
-4. Enter a name for the application
+2. Click ***Solutions***
+3. Click ***New Solutions***
+4. For display name enter your own name, We us ***My API Solution***
 5. Click ***Create***
+6. Once the solution is created, Click ***New***, Then ***App***, Lastly click ***Canvas App***
+7. Enter a name for the application
+8. Click ***Create***
 
 * ***Note*** It is important to save a new Power App at least one time in order to take advantage of the auto-save feature.  If you do not save the app at least once, you risk losing all your work.
 
