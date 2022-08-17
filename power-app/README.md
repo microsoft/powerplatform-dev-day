@@ -15,7 +15,7 @@ In this section you will create a Power App that will show lists of Public APIs.
 1. Browse to https://make.powerapps.com
 2. Click ***Solutions***
 3. Click ***New Solutions***
-4. For display name enter your own name, We us ***My API Solution***
+4. For display name enter your own name. We use ***My API Solution***
 5. Click ***Create***
 6. Once the solution is created, Click ***New***, Then ***App***, Lastly click ***Canvas App***
 7. Enter a name for the application
