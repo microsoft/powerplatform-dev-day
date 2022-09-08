@@ -41,5 +41,12 @@ Part 1: Creating cosmos db
 More resources on how to create a cosmos db database creation here
 
 Part 2: Creating the Dataverse table
+1.	Go to https://make.preview.powerapps.com/
+2.	Select Dataverse and click on Tables
 
+![](images/d1.png) 
+
+3. 3.	Select New Table
+
+![](images/d2.png) 
 
