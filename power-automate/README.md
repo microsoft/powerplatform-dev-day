@@ -21,4 +21,17 @@ Step 1: Creating cosmos db
 
  
 
-6.	
+6.	The deployment is now complete. (Takes 2 to 15 minutes)
+ 
+
+7.	Go to resource. Then select Data Explorer and create a new container. Specify Database ID, Container id and  partition key. The rest of the parameters are left unchanged. Click OK .
+
+ 
+
+8.	Go to keys and copy the primary key of your cosmos DB instance
+
+ 
+
+More resources on how to create a cosmos db database creation here
+
+
