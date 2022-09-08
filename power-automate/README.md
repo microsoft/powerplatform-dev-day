@@ -97,3 +97,13 @@ Your flow should look like this at this stage
 8.	The flow ran successfully and was able to retrieve the categories from the API
 
 ![](images/f8.png) 
+
+9.	Click on edit then Add a new step to store the retrieved categories in a variable
+
+![](images/f9.png) 
+
+Specify the name of the variable (insertedRecords) and the type (Array) as shown below
+
+
+![](images/f10.png) 
+
