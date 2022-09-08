@@ -120,5 +120,18 @@ The output from the previous step is Categories and is gotten from the dynamic c
 
 12.	The Table Name is the name of the table you created in step 2 and Name will be “current value” gotten from the dynamic content
  ![](images/f14.png)
+13.	Add a new action in the apply to each loop. To create or update a document in cosmos db
+![](images/f15.png)
+14.	Click on the 3 dots at the right hand corner of the step and select Add a new connection
+               ![](images/f16.png).
+*Authentication Type: Access key
+Account ID: The name of your database without the document.azure.com
+Access key: paste the access key you earlier copied in step 1
+This will add a new connection and allow you to connect to the cosmos db table as shown below
+![](images/f17.png).
+In the body, paste the following
+{
+  "id": Current Item (Get the current Item from the dynamic content as you did in step 12
+}
 
 
