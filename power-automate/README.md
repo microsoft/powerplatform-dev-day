@@ -80,4 +80,13 @@ URI = https://powerplatformdevday.azurewebsites.net/api/GetAPICategory?clientId=
 
 ![](images/f4.png) 
 
+6.	Add a new step. Parse JSON. That parses the JSON object returned by the GET method in the http step above.
+Content = body (from dynamic content)
+Schema click on “Generate from sample” then  copy and paste the URI in a browser and copy the JSON object returned
+
+![](images/f5.png) 
+
+Your flow should look like this at this stage
+
+![](images/f6.png) 
 
