@@ -9,3 +9,16 @@ We encourage you to follow along the hands-on labs during lab sessions.
 * Request a power platform developer license [here](https://go.microsoft.com/fwlink/?LinkId=2180357&clcid=0x409).
     * If that doesn't work, please try  [Microsoft 365 Developer Program](https://docs.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program#join-the-microsoft-365-developer-program).
     
+Step 1: Creating cosmos db
+1.	Go to Home - Microsoft Azure
+2.	Search for Azure Cosmos DB
+3.	Select create
+ 
+
+4.	Select Core(sql)
+ 
+5.	Select your subscription then select or create your resource group. Input an  account name and select a location for your cosmosDB then click Review + Create then click create
+
+ 
+
+6.	
