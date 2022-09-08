@@ -46,7 +46,15 @@ Part 2: Creating the Dataverse table
 
 ![](images/d1.png) 
 
-3. 3.	Select New Table
+3.Select New Table
 
 ![](images/d2.png) 
+
+4. Specify the display name, the plural name will be automatically filled. Description is optional
+
+![](images/d3.png) 
+
+5. Your new table has been created as shown below
+
+![](images/d4.png) 
 
