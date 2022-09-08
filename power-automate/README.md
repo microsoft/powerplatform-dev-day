@@ -9,8 +9,8 @@ We encourage you to follow along the hands-on labs during lab sessions.
 * Request a power platform developer license [here](https://go.microsoft.com/fwlink/?LinkId=2180357&clcid=0x409).
     * If that doesn't work, please try  [Microsoft 365 Developer Program](https://docs.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program#join-the-microsoft-365-developer-program).
     
-Part 1: Creating cosmos db
-1.	Go to Home - Microsoft Azure
+## Part 1: Creating cosmos db
+1.	Go to [Home - Microsoft Azure](portal.azure.com)
 2.	Search for Azure Cosmos DB
 3.	Select create
 
@@ -40,8 +40,8 @@ Part 1: Creating cosmos db
 
 More resources on how to create a cosmos db database creation here
 
-Part 2: Creating the Dataverse table
-1.	Go to https://make.preview.powerapps.com/
+## Part 2: Creating the Dataverse table
+1.	Go to [powerapps] (https://make.preview.powerapps.com/)
 2.	Select Dataverse and click on Tables
 
 ![](images/d1.png) 
@@ -57,4 +57,7 @@ Part 2: Creating the Dataverse table
 5. Your new table has been created as shown below
 
 ![](images/d4.png) 
+
+## Part 3: Creating the flow in Power automate
+1. Go to [power automate](https://make.preview.powerautomate.com/)
 
