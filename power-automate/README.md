@@ -63,3 +63,12 @@ More information about creating tables in Dataverse [here](https://docs.microsof
 ## Part 3: Creating the flow in Power automate
 1. Go to [power automate](https://make.preview.powerautomate.com/)
 
+![](images/f1.png) 
+
+2. Select *Create* then click on Automated cloud flow
+3.	Specify the flow name then click on skip
+
+![](images/f2.png) 
+
+
+
