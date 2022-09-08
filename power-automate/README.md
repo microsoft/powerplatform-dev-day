@@ -38,7 +38,7 @@ We encourage you to follow along the hands-on labs during lab sessions.
 ![](images/8.png) 
  
 
-More resources on how to create a cosmos db database creation here
+More resources on how to create a cosmos db database creation [here](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/create-cosmosdb-resources-portal)
 
 ## Part 2: Creating the Dataverse table
 1.	Go to [powerapps] (https://make.preview.powerapps.com/)
@@ -57,6 +57,8 @@ More resources on how to create a cosmos db database creation here
 5. Your new table has been created as shown below
 
 ![](images/d4.png) 
+
+More information about creating tables in Dataverse [here](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps-common-data-service/)
 
 ## Part 3: Creating the flow in Power automate
 1. Go to [power automate](https://make.preview.powerautomate.com/)
