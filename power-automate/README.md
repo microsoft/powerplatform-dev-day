@@ -107,3 +107,18 @@ Specify the name of the variable (insertedRecords) and the type (Array) as shown
 
 ![](images/f10.png) 
 
+10.	We will now loop over the Array (insertedRecords) and insert items within into the cosmosDb container (table) and dataverse table we earlier created. To loop over the items, we add a new step and search for apply to each
+
+![](images/f11.png) 
+
+The output from the previous step is Categories and is gotten from the dynamic content
+
+![](images/f12.png) 
+
+11. Add a “Add a new row” into dataverse action inside the apply to each. 
+ ![](images/f113.png)
+
+12.	The Table Name is the name of the table you created in step 2 and Name will be “current value” gotten from the dynamic content
+ ![](images/f14.png)
+
+
