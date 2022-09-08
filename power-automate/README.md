@@ -136,4 +136,6 @@ In the body, paste the following
   "id": Current Item (Get the current Item from the dynamic content as you did in step 12
 }*
 
+15. Save the flow. It should now look like this. With your flow being ready for testing
+![](images/f18.png).
 
