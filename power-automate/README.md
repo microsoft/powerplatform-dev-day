@@ -70,5 +70,14 @@ More information about creating tables in Dataverse [here](https://docs.microsof
 
 ![](images/f2.png) 
 
+4.	In the initial step. Search for http and click on it
+
+![](images/f3.png) 
+
+5.	Specify the Method (GET) and URI
+
+URI = https://powerplatformdevday.azurewebsites.net/api/GetAPICategory?clientId=apim-ppdevday
+
+![](images/f4.png) 
 
 
