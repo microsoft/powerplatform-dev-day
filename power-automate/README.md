@@ -148,11 +148,11 @@ The flow ran successfully and inserted data in both cosmos db and dataverse as s
 
 ![](images/f20.png)
 
-Cosmos db output
+Cosmos db (ppdd-categories1) table
 
 ![](images/f21.png)
 
-Dataverse output
+Dataverse (ppdd-items) table
 
 ![](images/f22.png)
 
