@@ -90,3 +90,10 @@ Your flow should look like this at this stage
 
 ![](images/f6.png) 
 
+7.	Save your flow by clicking Save then click on Test to test the flow. Select manually then click Test.
+
+![](images/f7.png) 
+
+8.	The flow ran successfully and was able to retrieve the categories from the API
+
+![](images/f8.png) 
