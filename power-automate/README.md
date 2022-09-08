@@ -13,23 +13,29 @@ Step 1: Creating cosmos db
 1.	Go to Home - Microsoft Azure
 2.	Search for Azure Cosmos DB
 3.	Select create
- 
+
+![](images/3.png) 
 
 4.	Select Core(sql)
- 
+
+![](images/4.png) 
 5.	Select your subscription then select or create your resource group. Input an  account name and select a location for your cosmosDB then click Review + Create then click create
 
+![](images/5.png) 
  
 
 6.	The deployment is now complete. (Takes 2 to 15 minutes)
- 
+
+![](images/6.png) 
 
 7.	Go to resource. Then select Data Explorer and create a new container. Specify Database ID, Container id and  partition key. The rest of the parameters are left unchanged. Click OK .
 
+![](images/7.png) 
  
 
 8.	Go to keys and copy the primary key of your cosmos DB instance
 
+![](images/8.png) 
  
 
 More resources on how to create a cosmos db database creation here
