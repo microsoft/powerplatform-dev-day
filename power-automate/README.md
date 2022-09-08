@@ -138,5 +138,22 @@ In the body, paste the following
 *Get the current Item from the dynamic content as you did in step 12*
 
 15. Save the flow. It should now look like this. With your flow being ready for testing
-![](images/f18.png).
+![](images/f18.png)
+
+16.	Now let’s test the flow. Click on Test and Select Manually then click Test
+
+![](images/f19.png)
+
+The flow ran successfully and inserted data in both cosmos db and dataverse as shown below
+
+![](images/f20.png)
+
+Cosmos db output
+
+![](images/f21.png)
+
+Dataverse output
+
+![](images/f22.png)
+
 
