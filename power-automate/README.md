@@ -157,7 +157,7 @@ Cosmos db (ppdd-categories1) table
 
 Dataverse (ppdd-items) table
 
-![](images/f22.png)
+![](images/m11.png)
 
 
 
