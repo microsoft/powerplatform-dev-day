@@ -102,12 +102,21 @@ Your flow should look like this at this stage
 
 ![](images/f9.png) 
 
-Specify the name of the variable (insertedRecords) and the type (Array) as shown below
+Specify the name of the variable (categoryItem) and the type (Array) as shown below
 
 
-![](images/f10.png) 
+![](images/m12.png) 
 
-10.	We will now loop over the Array (insertedRecords) and insert items within into the cosmosDb container (table) and dataverse table we earlier created. To loop over the items, we add a new step and search for apply to each
+10. We will now now list the rows in the dataverse table
+![](images/m2.png)
+
+11. Add a new step (Apply to Each) in which we will add the category items to the categoryItem array variable. Name this step Adding categories to Array variable
+![](images/m3.png) 
+
+12. 
+
+
+11.	We will now loop over the Array (categoryItem) and insert items within into the cosmosDb container (table) and dataverse table we earlier created. To loop over the items, we add a new step and search for apply to each
 
 ![](images/f11.png) 
 
