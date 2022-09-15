@@ -148,7 +148,7 @@ In the body, paste the following
 }
 ```
 
-_Get the current Item from the dynamic content as you did in step 12*
+*Get the current Item from the dynamic content as you did in step 12
 
 
 The output from the previous step is **Categories** and is gotten from the dynamic content. The loop should look like this
