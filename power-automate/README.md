@@ -107,32 +107,19 @@ Specify the name of the variable (categoryItem) and the type (Array) as shown be
 
 ![](images/m12.png) 
 
-10. We will now now list the rows in the dataverse table
+10. We will now list the rows in the dataverse table. Add a new step, List Rows for Dataverse and pass it the table name.
 ![](images/m2.png)
 
 11. Add a new step (Apply to Each) in which we will add the category items to the categoryItem array variable. Name this step Adding categories to Array variable
+Name: categoryItem (the array variable)
+value: Name (generated from the dynamic content)
 ![](images/m3.png) 
 
-12. 
 
-
-11.	We will now loop over the Array (categoryItem) and insert items within into the cosmosDb container (table) and dataverse table we earlier created. To loop over the items, we add a new step and search for apply to each
-
-![](images/f11.png) 
-
-The output from the previous step is Categories and is gotten from the dynamic content
-
-![](images/f12.png) 
-
-11. Add a “Add a new row” into dataverse action inside the apply to each. 
-*Note: The demo uses insert rows connect for dataverse but needed to check if exists for upsert*
- ![](images/f113.png)
-
-12.	The Table Name is the name of the table you created in step 2 and Name will be “current value” gotten from the dynamic content
- ![](images/f14.png)
-13.	Add a new action in the apply to each loop. To create or update a document in cosmos db
-![](images/f15.png)
-14.	Click on the 3 dots at the right hand corner of the step and select Add a new connection
+12. We will now loop over the Array (categoryItem) and insert items within into the cosmosDb container (table) and dataverse table we earlier created.
+We will do this in multple steps
+ i. Within the Apply to each (the loop) add a new step to create or update document for cosmos db. You will need to provide the connection details
+ Click on the 3 dots at the right hand corner of the step and select Add a new connection
 *Note: CosmosDB upserts by default*
 
  ![](images/f16.png).
@@ -148,6 +135,22 @@ In the body, paste the following
   "id": Current Item 
 }*
 *Get the current Item from the dynamic content as you did in step 12*
+
+![](images/f11.png) 
+
+The output from the previous step is Categories and is gotten from the dynamic content
+
+![](images/f12.png) 
+
+11. Add a “Add a new row” into dataverse action inside the apply to each. 
+*Note: The demo uses insert rows connect for dataverse but needed to check if exists for upsert*
+ ![](images/f113.png)
+
+12.	The Table Name is the name of the table you created in step 2 and Name will be “current value” gotten from the dynamic content
+ ![](images/f14.png)
+13.	Add a new action in the apply to each loop. To create or update a document in cosmos db
+![](images/f15.png)
+14.	
 
 15. Save the flow. It should now look like this. With your flow being ready for testing
 ![](images/f18.png)
@@ -167,6 +170,9 @@ Cosmos db (ppdd-categories1) table
 Dataverse (ppdd-items) table
 
 ![](images/m11.png)
+
+The Terminate control in Microsoft Power Automate simply ends the execution of a flow
+![](images/m9.png)
 
 
 
