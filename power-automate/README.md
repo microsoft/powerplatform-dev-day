@@ -1,5 +1,5 @@
 
-# Create Advanced Flows with Power Automate, Dataverse and Cosmos DB
+# Create Advanced Flows with Power Automate, Dataverse and Azure Cosmos DB
 
 ## Prerequisites
 
