@@ -72,20 +72,20 @@ In part 3, we are creating the flow that calls an API endpoint to retrieve Data 
 
 ![](images/f1.png) 
 
-2. Select *Create* then click on **Automated cloud flow**
-3.	Specify the flow name then click on skip
+2. Select *Create* then click on **Instant cloud flow**
+3.	Specify the flow name then select **Manually trigger a flow** then  click on create
 
-![](images/f2.png) 
+![](images/update1.png) 
 
-4.	In the initial step. Search for **http** and click on it
+4.	In the next step. Search for **http** and click on it
 
-![](images/f3.png) 
+![](images/update2.png) 
 
 5.	Specify the Method **(GET)** and URI
 
 ***URI = https://powerplatformdevday.azurewebsites.net/api/GetAPICategory?clientId=apim-ppdevday***
 
-![](images/f4.png) 
+![](images/update3.png) 
 
 6.	Add a new step, **Parse JSON**. That parses the JSON object returned by the GET method in the http step above.
 Content = body (from dynamic content)
@@ -95,11 +95,11 @@ Schema click on “Generate from sample” then  copy and paste the URI in a bro
 
 Your flow should look like this at this stage
 
-![](images/f6.png) 
+![](images/update4.png) 
 
 7.	Save your flow by clicking Save then click on **Test** to test the flow. Select manually then click Test.
 
-![](images/f7.png) 
+![](images/update4.png) 
 
 8.	The flow ran successfully and was able to retrieve the _categories_ information in JSON format from the API
 
