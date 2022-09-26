@@ -99,7 +99,7 @@ Your flow should look like this at this stage
 
 7.	Save your flow by clicking Save then click on **Test** to test the flow. Select manually then click Test.
 
-![](images/update4.png) 
+![](images/update5.png) 
 
 8.	The flow ran successfully and was able to retrieve the _categories_ information in JSON format from the API
 
